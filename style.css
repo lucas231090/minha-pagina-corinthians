@@ -1,0 +1,111 @@
+/* Geral */
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+  color: #333;
+  line-height: 1.6;
+}
+
+header {
+  background: #4a90e2;
+  color: #ffffff;
+  padding: 1rem 0;
+  text-align: center;
+  font-size: 2.5rem;
+  font-weight: bold;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.container {
+  max-width: 960px;
+  margin: 2rem auto;
+  padding: 0 1rem;
+  background: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Navegação */
+nav {
+  background: #505050;
+  padding: 0.5rem 0;
+  text-align: center;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+}
+
+nav ul li a {
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 1.2rem;
+  padding: 1rem 1.5rem;
+  display: block;
+  transition: background-color 0.3s ease;
+}
+
+nav ul li a:hover {
+  background-color: #6a6a6a;
+}
+
+/* Seções */
+section {
+  padding: 2rem;
+}
+
+h2 {
+  color: #4a90e2;
+  border-bottom: 2px solid #e0e0e0;
+  padding-bottom: 0.5rem;
+  margin-top: 0;
+}
+
+p {
+  margin-bottom: 1rem;
+  text-align: justify;
+}
+
+/* Imagem */
+#corinthians {
+  display: block;
+  max-width: 200px;
+  height: auto;
+  margin: 1.5rem auto;
+  border-radius: 50%;
+  border: 5px solid #ffffff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+/* Div */
+div {
+  background-color: #f0f0f0;
+  padding: 1rem;
+  margin: 2rem auto;
+  text-align: center;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-style: italic;
+  color: #666;
+}
+
+/* Responsividade básica */
+@media (max-width: 768px) {
+  header {
+      font-size: 2rem;
+  }
+
+  nav ul {
+      flex-direction: column;
+  }
+  
+  nav ul li a {
+      padding: 0.8rem 1rem;
+  }
+}
